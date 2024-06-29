@@ -1,0 +1,15 @@
+export default function PostBody() {
+	return (
+		<div className="flex gap-4 ml-3">
+			<div className="w-[400px]">
+				<h2 className="font-bold mb-2 text-2xl">
+					<a href="" className="hover:underline">Aprenda a centralizar uma div</a>
+				</h2>
+				<p className="line-clamp-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis</p>
+			</div>
+			<div className="w-[170px] h-[100px]">
+				<img src="/public/profile.avif" className="rounded w-full h-full object-cover object-center" />
+			</div>
+		</div>
+	);
+}
