@@ -1,4 +1,3 @@
-
 export default function PostHeader() {
     return (
         <div className="flex items-center gap-2">
