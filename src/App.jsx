@@ -1,34 +1,15 @@
-
-function Header({ children, className }) {
-    return (
-        <header className={className}>
-                {children}
-        </header>
-    )
-}
-
-function FormBase({methodPost, sendTo, className, children}) {
-    return (
-        <form action={sendTo} method={methodPost ? 'POST' : 'GET'} className={className}>
-            {children}
-        </form>
-    )
-}
-
-function HeaderSearch() {
-    return (
-        <a href={href} className="font-semibold leading-6 ml-5 text-black">{children}</a>
-    )
-}
+import Header from './components/Header';
+import FormBase from './components/FormBase';
 
 function App() {
     return (
-        <Header className="bg-red-300">
-            <FormBase>
-                
+        <Header className="bg-blue-500 flex p-3">
+            <h1 className="ml-5">FS34Blog</h1>
+            <FormBase className="ml-5">
+                <input type="text" />
             </FormBase>
         </Header>
     );
 }
 
-export default App
+export default App;
