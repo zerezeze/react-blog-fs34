@@ -3,6 +3,7 @@ import FormBase from './components/FormBase';
 import PostHeader from './components/PostHeader';
 import PostBody from './components/PostBody';
 import Tags from './components/Tags';
+import Latest from './components/Latest';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <PostHeader />
             <PostBody /> */}
             <Tags />
+            <Latest></Latest>
         </>
     );
 }
