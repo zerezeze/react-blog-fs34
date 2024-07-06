@@ -15,17 +15,18 @@ function App() {
                     <button className="border rounded border-black px-2 py-1 ml-2">Pesquisar</button>
                 </FormBase>
             </Header>
-            <div className='grid grid-cols-12 gap-8 p-10'>
-                <div className='col-span-8 flex flex-col items-end'>
+
+            <div className='flex px-20 py-10 gap-20'>
+                <div className=''>
                     <div>
                         <PostHeader />
                         <PostBody />
                     </div>
                 </div>
-                <div className='col-span-4 flex flex-col items-start'>
+                <div>
                     <div>
-                    <Tags />
-                    <Latest />
+                        <Tags />
+                        <Latest />
                     </div>
                 </div>
                     
