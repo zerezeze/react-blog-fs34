@@ -7,7 +7,7 @@ export default function PostBody() {
 				</h2>
 				<p className="line-clamp-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis</p>
 			</div>
-			<div className="w-[170px] h-[100px]">
+			<div className="w-[250px] h-[100px]">
 				<img src="/public/profile.avif" className="rounded w-full h-full object-cover object-center" />
 			</div>
 		</div>

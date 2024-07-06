@@ -4,6 +4,7 @@ import PostHeader from './components/PostHeader';
 import PostBody from './components/PostBody';
 import Tags from './components/Tags';
 import Latest from './components/Latest';
+import Layout from './components/Layout';
 
 function App() {
     return (
@@ -16,8 +17,8 @@ function App() {
                 </FormBase>
             </Header>
 
-            <div className='flex px-20 py-10 gap-20'>
-                <div className=''>
+            <Layout>
+                <div>
                     <div>
                         <PostHeader />
                         <PostBody />
@@ -29,10 +30,7 @@ function App() {
                         <Latest />
                     </div>
                 </div>
-                    
-            </div>
-            
-
+            </Layout>
         </>
     );
 }
