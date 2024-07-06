@@ -1,7 +1,7 @@
 export default function PostBody() {
 	return (
 		<div className="flex gap-4 ml-3">
-			<div className="w-[400px]">
+			<div className="w-full">
 				<h2 className="font-bold mb-2 text-2xl">
 					<a href="" className="hover:underline">Aprenda a centralizar uma div</a>
 				</h2>
