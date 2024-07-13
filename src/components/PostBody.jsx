@@ -6,7 +6,7 @@ export default function PostBody() {
 		<div className="flex gap-4 ml-3">
 			<div className="w-full">
 				<h2 className="font-bold mb-2 text-2xl">
-					<Link to="post/jossara/aprenda-centralizar-div" className="hover:underline">Aprenda a centralizar uma div</Link>
+					<Link to="/aprenda-centralizar-div" className="hover:underline">Aprenda a centralizar uma div</Link>
 				</h2>
 				<p className="line-clamp-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis</p>
 			</div>
