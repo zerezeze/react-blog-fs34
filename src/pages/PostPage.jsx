@@ -8,7 +8,7 @@ export default function PostPage() {
   console.log(params.postSlug);
 
   return (
-    <Layout>
+    <Layout showSideBar>
       <Post>
         <h1>Slug do post: {params.postSlug}</h1>
       </Post>

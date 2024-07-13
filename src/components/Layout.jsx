@@ -5,7 +5,7 @@ import Header from "./Header";
 import FormBase from "./FormBase";
 import { Link } from "react-router-dom";
 
-export default function Layout ({children}) {
+export default function Layout ({children, showSideBar}) {
   return (
     <>
       <Header className="flex items-center p-3 shadow-md">
@@ -17,16 +17,20 @@ export default function Layout ({children}) {
               <button className="border rounded border-black px-2 py-1 ml-2">Pesquisar</button>
           </FormBase>
       </Header>
+      
       <div className='flex px-20 py-10 gap-20'>
           <div>
             {children}
           </div>
+
+        { showSideBar && (
           <div>
             <div>
                 <Tags />
                 <Latest />
             </div>
           </div>
+        )}
       </div>
     </>
   )
