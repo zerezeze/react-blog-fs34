@@ -62,7 +62,7 @@ const posts = [
   },
   {
     title: "Como fazer um chat com WebSocket",
-    slug: "Como fazer um chat com WebSocket",
+    slug: "como-fazer-um-chat-com-WebSocket",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis",
     image_path: "/public/profile.avif",
     date: "2024-11-15",
@@ -74,7 +74,7 @@ const posts = [
   },
   {
     title: "Como fazer um CRUD com PHP",
-    slug: "Como fazer um CRUD com PHP",
+    slug: "como-fazer-um-CRUD-com-PHP",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis",
     image_path: "/public/profile.avif",
     date: "2024-11-20",
@@ -86,7 +86,7 @@ const posts = [
   },
   {
     title: "Como fazer um gerador de PDF com PHP",
-    slug: "Como fazer um gerador de PDF com PHP",
+    slug: "como-fazer-um-gerador-de-PDF-com-PHP",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis",
     image_path: "/public/profile.avif",
     date: "2024-11-25",
