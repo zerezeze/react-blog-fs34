@@ -2,15 +2,32 @@ import PostHeader from './../components/PostHeader';
 import PostBody from './../components/PostBody';
 import Layout from './../components/Layout';
 import Post from '../components/Post';
+import posts from '../api/posts';
+
+
 
 function App() {
     return (
         <>
             <Layout showSideBar>
-                <Post>
-                    <PostHeader />
-                    <PostBody />
-                </Post>
+                { posts.map(function(post) {
+                    return (
+                        <Post>
+                            <PostHeader 
+                                authorName={post.author.name} 
+                                authorProfile={post.author.profile_path}
+                                postDate={post.date}
+                                authorUsername={post.author.username} 
+                            />
+                            <PostBody 
+                                content={post.content}
+                                title={post.title} 
+                                slug={post.slug} 
+                                image={post.image_path}
+                            />
+                        </Post>
+                    );
+                })}
             </Layout>
         </>
     );
