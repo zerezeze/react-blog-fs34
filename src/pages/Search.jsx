@@ -13,15 +13,17 @@ function Search() {
     let query = searchParams.get('query');
 
     const postsFiltered = posts.filter(function (post) {
-        query = query.toLocaleLowerCase();
-        return post.title.toLocaleLowerCase().includes(query);
+        return post.title.toLocaleLowerCase().includes(query.toLocaleLowerCase());
     });
 
     return (
         <>
             <Layout>
                 
-                <h2>Resultado: </h2>
+                <h2 className='border-b p-3 mb-8'>
+                    <span className="text-gray-500 font-semibold text-xl">Resultado: </span>
+                    <span className='text-black text-2xl font-bold'>{query}</span>
+                </h2>
 
                 { postsFiltered.map(function(post) {
                     

@@ -3,6 +3,7 @@ const posts = [
   {
     id: 1,
     user_id: 2,
+    tags_id: [2, 3],
     title: "Aprenda a centralizar uma div",
     slug: "aprenda-a-centralizar-uma-div",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore iusto ab itaque corporis pariatur sapiente omnis. corporis pariatur sapiente omnis",
